@@ -4,7 +4,7 @@
     padding-top: 12rem;
     padding-bottom: 12rem;
     text-align: center !important;
-    color: darkred; !important;
+    color: white; !important;
 }
 .slogan {
     background-color: rgb(230, 240, 250) !important;
@@ -84,5 +84,6 @@ a:hover{
     color: magenta;
 
 }
+
 
 
