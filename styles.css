@@ -1,83 +1,86 @@
-/* ===== BODY ===== */
-body {
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #e8f7f5;
-    color: #2f3e46;
-}
-
-/* ===== BANNER ===== */
 .banner {
-    background: linear-gradient(135deg, #2bb0a6, #6ddccf);
-    padding: 6rem 1rem;
-    text-align: center;
-    color: white;
+    background: url("images/banner.png.jpg") no-repeat center center;
+    background-size: cover; /*Hình ảnh có thể bị cắt để lấp đầy toàn bộ phần tử*/
+    padding-top: 12rem;
+    padding-bottom: 12rem;
+    text-align: center !important;
+    color: white; !important;
 }
-
-.banner h1 {
-    font-size: 2.5rem;
-    margin-bottom: 1rem;
-}
-
-.banner p {
-    font-size: 1.2rem;
-}
-
-/* ===== SLOGAN / 3 Ô ===== */
 .slogan {
-    background-color: #ffffff;
-    padding: 2rem 1rem;
+    background-color: rgb(230, 240, 250) !important;
+    text-align: center !important;
+ 	width: 100%;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
-
+.slogan-h2{
+    font-size: 120%;
+}
 .row {
-    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -1px;  
+    max-width: 100%;
+    padding-right: 3rem;
+    padding-left: 3rem;
 }
-
 .block_3 {
-    width: 33%;
-    background-color: #e8f7f5;
-    border-radius: 16px;
-    padding: 1rem;
+    flex: 0 0 auto;
+    width: 33.33333%;
 }
-
-.block_3 h3 {
-    color: #2bb0a6;
+div#b3a:hover{
+    font-size: 120%;
+    color: red;
 }
-
-.block_3 p {
-    color: #2f3e46;
+div#b3b:hover{
+    font-size: 120%;
+    color: red;
 }
-
-/* ===== TABLE / NỘI DUNG ===== */
-table {
-    width: 90%;
-    margin: 2rem auto;
-    border-collapse: separate;
-    border-spacing: 1rem;
+div#b3c:hover{
+    font-size: 120%;
+    color: red;
 }
-
-td {
-    background-color: #ffffff;
-    border-radius: 14px;
-    padding: 1rem;
+table
+{
+	width: 90%;
+	margin: 0 auto;
 }
-
-.cell_text h3 {
-    color: #2bb0a6;
+.cell_img {
+	width: 50%;
 }
-
-.cell_text p {
-    color: #2f3e46;
+.cell_text {
+	width: 50%; padding-left: 5rem;
 }
-
-.cell_img img {
-    border-radius: 12px;
+.img {
+	width: 100%; 
+	height: 100%;
 }
-
-/* ===== FOOTER ===== */
+.img_tv {
+    width: 50%; 
+    height: 50%;
+    /*text-align: center;*/
+    margin: 0 auto;
+}
+.menu {
+	font-size:120%; 
+	text-decoration: none;
+}
+.cell {
+	text-align: justify; 
+	padding: 1.5em;
+}
 footer {
-    background-color: #2bb0a6;
-    color: white;
-    text-align: center;
-    padding: 1rem;
+	background-color: lightgrey; 
+	margin: 1px; 
+	padding: 10px;
+}
+.link {
+	color: navy; 
+	text-align: left;
+}
+a:hover{
+    color: magenta;
+
 }
